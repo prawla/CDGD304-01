@@ -1,17 +1,39 @@
-body{
+/*START PAGE*/
+
+body.startpage{
     background-color: #FF3B00;
 }
 
-h1{
+h1.startpage{
     font-family: Gotham;
+    font-size: 65px;
     color: white;
     text-align: center;
-    font-size: 65px;
 }
 
-p.navigation{
+p.startpage{
     font-family: Gotham;
     color: white;
     text-align: center;
     font-size: 16px;
+}
+
+
+
+
+/*ILLUSTRATION*/
+
+h1{
+    font-family: Gotham;
+    font-size: 36px;
+    text-align: left;
+}
+
+p.navigation{
+    font-family: Gotham;
+    font-size: 16px;
+}
+
+p.images{
+    align-content: center;
 }
