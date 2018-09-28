@@ -6,7 +6,7 @@
 /*START PAGE*/
 
 a.startpage {
-        padding: 7px
+    padding: 7px
 
 }
 a.startpage:link, a.startpage:visited {
@@ -15,7 +15,7 @@ a.startpage:link, a.startpage:visited {
 }
 a.startpage:hover {
     color: red;
-/*    text-decoration: underline;*/
+    /*    text-decoration: underline;*/
     background-color: white;
     padding: 7px
 }
@@ -38,6 +38,7 @@ p.startpage{
     font-size: 16px;
 }
 
+/*
 .boxleft{
     background-color:fuchsia;
     display: inline-block;
@@ -51,12 +52,13 @@ p.startpage{
     width: 50%;
     height: 1000px;
 }
+*/
 
 
 /*ILLUSTRATION AND GRAPHIC DESIGN*/
 
 a {
-        padding: 7px
+    padding: 7px
 
 }
 a:link, a:visited {
