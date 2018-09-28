@@ -1,4 +1,24 @@
+/*GLOBAL*/
+
+
+
+
 /*START PAGE*/
+
+a.startpage {
+        padding: 7px
+
+}
+a.startpage:link, a.startpage:visited {
+    color: white;
+    text-decoration: none;
+}
+a.startpage:hover {
+    color: red;
+/*    text-decoration: underline;*/
+    background-color: white;
+    padding: 7px
+}
 
 body.startpage{
     background-color: #FF3B00;
@@ -18,10 +38,48 @@ p.startpage{
     font-size: 16px;
 }
 
+.boxleft{
+    background-color:fuchsia;
+    display: inline-block;
+    width: 50%;
+    height: 1000px;
+}
+
+.boxright{
+    background-color: aquamarine;
+    float: right;
+    width: 50%;
+    height: 1000px;
+}
 
 
+/*ILLUSTRATION AND GRAPHIC DESIGN*/
 
-/*ILLUSTRATION*/
+a {
+        padding: 7px
+
+}
+a:link, a:visited {
+    color: red;
+    text-decoration: none;
+}
+a:hover {
+    color: white;
+    text-decoration: underline;
+    background-color: red;
+    padding: 7px
+}
+
+a.header:link, a.header:visited{
+    padding: 0px;
+    color: black;
+    text-decoration: none;
+}
+
+a.header:hover{
+    background-color: white;
+    color: skyblue;
+}
 
 h1{
     font-family: Gotham;
@@ -34,6 +92,28 @@ p.navigation{
     font-size: 16px;
 }
 
-p.images{
-    align-content: center;
+p{
+    font-family: avenir;
+    font-size: 12px;
+}
+
+a.footer:link, a.footer:visited{
+    font-family: avenir;
+    font-size: 10px;
+    font-style: light;
+    color: black;
+    text-decoration: none;
+}
+
+a.footer:hover{
+    color: white;
+}
+
+
+/*ABOUT*/
+
+p.hello{
+    font-family: gotham;
+    font-size: 16px;
+    color: skyblue;
 }
