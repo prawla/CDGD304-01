@@ -5,6 +5,11 @@
 
 /*START PAGE*/
 
+body.startpage{
+    background-image: url(Images/Home_Bgd1.jpg)
+}
+
+
 a.startpage {
     padding: 7px
 
@@ -38,21 +43,21 @@ p.startpage{
     font-size: 16px;
 }
 
-/*
-.boxleft{
-    background-color:fuchsia;
-    display: inline-block;
-    width: 50%;
-    height: 1000px;
+.main_content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+/*    grid-gap: 20px;*/
+/*    margin-left: 4em ;*/
+/*    margin-right: 4em ;*/
 }
 
-.boxright{
-    background-color: aquamarine;
-    float: right;
-    width: 50%;
-    height: 1000px;
+/*
+div.main_content div{
+        background-color: skyblue;
+
 }
 */
+
 
 
 /*ILLUSTRATION AND GRAPHIC DESIGN*/
