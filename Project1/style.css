@@ -102,24 +102,33 @@ a.header:link, a.header:visited{
     text-decoration: none;
 }
 
+/*
 a.header:hover{
     background-color: black;
     color: white;    
 }
-
-a.illustration{
-    
-}
+*/
 
 h1{
     font-family: Gotham;
+    font-size: 50px;
+    text-align: right;
+    padding:7px;
+}
+
+
+h2{
+    font-family: Gotham;
     font-size: 36px;
-    text-align: left;
+    text-align: right;
+    padding: 7px;
 }
 
 p.navigation{
     font-family: Gotham;
     font-size: 16px;
+    text-align: right;
+    padding: 7px;
 }
 
 p{
