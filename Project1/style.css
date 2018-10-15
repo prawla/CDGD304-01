@@ -5,8 +5,12 @@
 
 /*START PAGE*/
 
+
+
 body.startpage{
-    background-image: url(Images/Home_Bgd1.jpg)
+/*    background-image: url(bg.png);*/
+    background-repeat:repeat-y;
+    background-position: center;
 }
 
 
@@ -39,7 +43,7 @@ a.startpageillustration:hover{
 }
 
 body.startpage{
-    background-color: #FF3B00;
+/*    background-color: #FF3B00;*/
 }
 
 h1.startpage{

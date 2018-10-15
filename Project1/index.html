@@ -6,24 +6,52 @@
     <head>
         <title> Pallavi Rawla </title>
         <link type="text/css" rel="stylesheet" href="style.css"> 
+
+        <script type="text/javascript">
+            //        alert("hi, pallavi");
+
+            // 0 red  // 1 green  // 2 (blue) 
+            var  left_color = [ '#ff000','#00ff00' , '#0000ff' ] ;
+
+
+
+            //            alert ("left_color: " + left_color[0]) ;
+
+            // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random
+            var random_decimal = Math.random( ) * 3 ; // get rando btwn 0 and 3
+            var whole_number = Math.floor ( random_decimal ) ; // round number up
+            console.log ( "random number: " + whole_number ) ;
+            var random_color = left_color[whole_number] ;
+            console.log ( "random color: " + random_color ) ;
+            
+            var page = document.getElementById("whatever") ;
+            console.log("page: " + page ) ;
+            page.style.backgroundColor = "#ff0000" ;
+            
+            
+
+
+
+        </script>
+
     </head>
 
-    <body class="startpage">
+    <body class="startpage" id="whatever">
 
         <h1 class="startpage"> Pallavi Rawla </h1>
 
         <p class="startpage">
-            
-           
+
+
             <a class="startpage" href="About/index.html"> about </a>
         </p>
 
         <div class="main_content">
-            
+
             <div> <a class="startpage startpagedesign" href="Design/index.html"> design </a> </div>
-            
+
             <div><a class="startpage startpageillustration"  href="Illustration/index.html"> illustration </a></div>
-            
+
         </div>
 
     </body>
