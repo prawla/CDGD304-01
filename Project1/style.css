@@ -1,6 +1,10 @@
 /*GLOBAL*/
 
 
+div, p, h1, h2,h3,h4, section, body  {
+    /*border: 1px solid red ;*/
+}
+
 
 /*START PAGE*/
 
@@ -116,20 +120,51 @@ body{
    margin: 3em;
 }
 
-.grid{
+body.grid, .grid_test {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(auto-fit,1fr);
+    /*grid-template-rows: auto auto auto auto ;*/
+    /*grid-auto-rows: auto ;*/
+    /*grid-auto-columns: 50px ;*/
+    grid-template-areas:
+"content content content header"
+"content content content ......"
+"content content content ......"
+"content content content footer"
+;
+    background-color: beige;
+    align-items: start;
+    grid-gap: 1em ;
 }
 
-.navigation{
-    grid-column: 4/5;
-    grid-row: 4/5;
+body.grid img {
+    width: 100% ;
+    object-fit: cover;
 }
+
+section.content {
+    grid-area: content ;
+    display:grid ;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1em ;
+
+}
+
+section.content p {
+    background-color: #fff ;
+}
+section.navigation{
+    /*grid-column: 4/5;*/
+    /*grid-row: 4/5;*/
+    grid-area: footer;
+}
+
 
 h1.design{
-    grid-column: 4/5;
-    grid-row: 1/2;
+    /*grid-column: 4/5;*/
+    /*grid-row: 1/2;*/
+    margin-top: 0 ;
+    grid-area: header ;
 }
 
 
