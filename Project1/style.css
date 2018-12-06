@@ -142,7 +142,7 @@ body.grid img {
 section.content {
     grid-area: content ;
     display:grid ;
-    grid-template-columns: 300px 300px 300px;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 1em ;
     grid-auto-flow: dense;
 
@@ -151,6 +151,8 @@ section.content {
 section.content p {
     background-color: #fff ;
 }
+
+
 section.navigation{
     /*grid-column: 4/5;*/
     /*grid-row: 4/5;*/
