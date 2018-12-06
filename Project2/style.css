@@ -1,0 +1,80 @@
+/*OPENING PAGE*/
+
+html{
+    min-height: 100%;
+}
+
+body.openingpage{
+    background-color: red;
+    background-image: url(Media/OpenPage_Bgd_1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*links*/
+
+a:link, a:visited{
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+/*    background-color: #e80d19;*/
+}
+
+a:hover{
+    color: #e80d19;
+    background-color: rgba(0,0,0,0.6) ;
+/*    text-decoration: underline;*/
+    padding: 20px;
+    font-weight: 800;
+}
+
+/*navigation*/
+
+.op_navigation{
+    font-family: benton-sans-compressed;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 20pt;
+/*    letter-spacing: 3pt;*/
+/*    word-spacing: 10pt;*/
+
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding-right: 30px;
+    padding-bottom: 30px;
+}
+
+
+
+
+
+/*TEXT PAGE*/
+
+/*grid*/
+
+.textpage{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
