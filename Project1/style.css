@@ -123,9 +123,6 @@ body{
 body.grid, .grid_test {
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    /*grid-template-rows: auto auto auto auto ;*/
-    /*grid-auto-rows: auto ;*/
-    /*grid-auto-columns: 50px ;*/
     grid-template-areas:
 "content content content header"
 "content content content ......"
