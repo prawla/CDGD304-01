@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <title> Design - Pallavi Rawla </title>
+        <link rel="stylesheet" href="../style.css">
+        <link rel="stylesheet" href="https://use.typekit.net/lat4byv.css">
+    </head>
+
+    <body>
+
+<<<<<<< Updated upstream
+    <h1 class="design">design</h1>
+
+=======
+        <section class="grid">
+>>>>>>> Stashed changes
+
+            <h1 class="design">design</h1>
+
+            <div class="navigation">
+                <h2> <a class="header" href="../index.html"> Pallavi Rawla </a> </h2>
+
+<<<<<<< Updated upstream
+
+
+        <section class="content">
+            <p><img src="../Images/DailyFrustration/LipsMoving.gif" width="57%"></p>
+=======
+                <p>
+                    <a class="design" href="../Illustration/index.html">illustration</a>
+                    <!--            design-->
+                    <a class="design" href="../About/index.html">about</a>
+                </p>
+            </div>
+>>>>>>> Stashed changes
+
+            <div>
+                <p><img src="../Images/DailyFrustration/LipsMoving.gif" width="57%"></p>
+
+                <p><img src="../Images/Design Is A Job - S18/BookPhotographs_edit20180508_02.jpg" width="50%"></p>
+
+                <p><img src="../Images/Elevator Persona Poster - F17/SusthRevision.jpg" width="50%"></p>
+
+                <p><img src="../Images/Green Economy - S18/GreenEconomy_1.jpg" width="50%"></p>
+
+                <p><img src="../Images/Human Rights Defenders - S18/Rawla_Pallavi_HumanRightsDefenders.jpg" width="50%"></p>
+
+                <p><img src="../Images/Incredible Edible Herbs - S18/DSC_0497.jpg" width="50%"></p>
+
+                <p><img src="../Images/Olympic Schedule and App - S18/OlympicApp - S18_Page_2.jpg" width="50%"></p>
+
+<<<<<<< Updated upstream
+
+
+=======
+                <p><img src="../Images/Three Posters - S18/ThreePosters_v1-01.jpg" width= "50%"></p>
+            </div>
+        </section>
+>>>>>>> Stashed changes
+    </body>
+
+</html>
