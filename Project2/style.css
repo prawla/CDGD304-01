@@ -13,20 +13,20 @@ body.openingpage{
 
 /*links*/
 
-a:link, a:visited{
+a:link, a:visited {
     color: white;
     text-decoration: none;
     padding: 20px;
-/*    background-color: #e80d19;*/
 }
 
 a:hover{
     color: #e80d19;
     background-color: rgba(0,0,0,0.6) ;
-/*    text-decoration: underline;*/
     padding: 20px;
     font-weight: 800;
 }
+
+
 
 /*navigation*/
 
@@ -35,8 +35,8 @@ a:hover{
     font-weight: 600;
     text-transform: uppercase;
     font-size: 20pt;
-/*    letter-spacing: 3pt;*/
-/*    word-spacing: 10pt;*/
+    /*    letter-spacing: 3pt;*/
+    /*    word-spacing: 10pt;*/
 
     position: fixed;
     bottom: 0;
@@ -51,16 +51,95 @@ a:hover{
 
 /*TEXT PAGE*/
 
+/*navigation*/
+
+.container{
+    width: 97%;
+}
+
+header{
+    background-color: #EB0F1C;
+}
+
+header::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.logo{
+    float: left;
+    padding: 10px 0;
+    margin-left: 25px;
+}
+
+nav{
+    float: right;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li{
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 20px;
+}
+
+nav a{
+    font-family: benton-sans-compressed;
+    font-weight: 600;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+nav a:hover{
+    color: white;
+}
+
 /*grid*/
 
 .textpage{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    padding-top: 25px;
 }
 
 
+.bodytext{
+    font-family: benton-sans;
+    font-size: 18px;
+    line-height: 29px;
+    margin: 20px;
+
+}
+
+.twinsimage{
+    width: 100%
+}
+
+.abouttitle{
+    height: 80%;
+    margin: 50px;
+}
 
 
+.funone{
+    font-family: benton-sans;
+    font-size: 70px;
+    margin: 15px;
+    font-weight: 900;
+    text-transform: uppercase;
+    align-content: center;
+}
+
+#red{
+    color: #e80d19;
+}
 
 
 
