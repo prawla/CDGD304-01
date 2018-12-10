@@ -145,7 +145,6 @@ section.content {
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 1em ;
     grid-auto-flow: dense;
-
 }
 
 section.content p {
@@ -304,7 +303,9 @@ p.hello{
 }
 
 
-
+.fancybox-image {
+    width:100% !important ;
+}
 
 
 
