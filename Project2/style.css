@@ -26,8 +26,6 @@ a:hover{
     font-weight: 800;
 }
 
-
-
 /*navigation*/
 
 .op_navigation{
@@ -44,9 +42,6 @@ a:hover{
     padding-right: 30px;
     padding-bottom: 30px;
 }
-
-
-
 
 
 /*TEXT PAGE*/
@@ -109,9 +104,6 @@ nav a:hover{
     padding-top: 25px;
 }
 
- 
-
-
 .bodytext{
     font-family: benton-sans;
     font-size: 18px;
@@ -121,27 +113,22 @@ nav a:hover{
 }
 
 .twinsimage{
-    width: 100%
+    width: 100%;
+    justify-content: center;
 }
 
 .abouttitle{
     height: 80%;
-    margin: 50px;
-}
-
-
-.funone{
-    font-family: benton-sans;
-    font-size: 70px;
-    margin: 15px;
+    text-align: center;
+    transform: rotate(270deg);
+    font-family: amador, sans-serif;
+    text-transform: lowercase;
     font-weight: 900;
-    text-transform: uppercase;
-    align-content: center;
+    font-size: 250px;
+    letter-spacing: 15px;
 }
 
-#red{
-    color: #e80d19;
-}
+
 
 
 
