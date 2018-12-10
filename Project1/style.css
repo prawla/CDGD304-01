@@ -120,7 +120,7 @@ body{
    margin: 3em;
 }
 
-body.grid, .grid_test {
+body.grid {
     display: grid;
     grid-template-columns: repeat(2,1fr);
     grid-template-areas:
@@ -140,10 +140,11 @@ body.grid img {
 }
 
 section.content {
-    grid-area: content ;
+/*    grid-area: content ;*/
     display:grid ;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 1em ;
+    grid-auto-rows: auto ; /* minmax(80px,auto) ; */
     grid-auto-flow: dense;
 
 }
