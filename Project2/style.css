@@ -13,6 +13,7 @@ body.openingpage{
 
 /*links*/
 
+/*
 a:link, a:visited {
     color: white;
     text-decoration: none;
@@ -25,6 +26,7 @@ a:hover{
     padding: 20px;
     font-weight: 800;
 }
+*/
 
 /*navigation*/
 
@@ -106,15 +108,14 @@ nav a:hover{
 
 .bodytext{
     font-family: benton-sans;
-    font-size: 18px;
+    font-size: 20px;
     line-height: 29px;
-    margin: 20px;
+    margin: 50px;
 
 }
 
 .twinsimage{
     width: 100%;
-    justify-content: center;
 }
 
 .abouttitle{
@@ -128,10 +129,16 @@ nav a:hover{
     letter-spacing: 15px;
 }
 
+.bandlist{
+    list-style: none;
+    font-family: benton-sans-compressed;
+    text-transform: uppercase;
+    text-decoration: none;
+}
 
-
-
-
+a.bandlist:link{
+    text-decoration: none;
+}
 
 
 
