@@ -87,6 +87,7 @@ nav li{
 }
 
 nav a{
+nav a {
     font-family: benton-sans-compressed;
     font-weight: 600;
     color: black;
@@ -111,11 +112,17 @@ nav a:hover{
     font-size: 20px;
     line-height: 29px;
     margin: 50px;
+}
 
+.bodytext_parent {
+    align-self: center ;
 }
 
 .twinsimage{
     width: 100%;
+}
+.twinsimage_parent{
+    align-self: center ;    
 }
 
 .abouttitle{
@@ -127,6 +134,10 @@ nav a:hover{
     font-weight: 900;
     font-size: 250px;
     letter-spacing: 15px;
+}
+
+.abouttitle_parent {
+        align-self: center ;
 }
 
 .bandlist{
