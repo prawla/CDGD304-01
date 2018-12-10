@@ -13,20 +13,18 @@ body.openingpage{
 
 /*links*/
 
-/*
-a:link, a:visited {
+body.openingpage a:link, body.openingpage a:visited {
     color: white;
     text-decoration: none;
     padding: 20px;
 }
 
-a:hover{
+body.openingpage a:hover{
     color: #e80d19;
     background-color: rgba(0,0,0,0.6) ;
     padding: 20px;
     font-weight: 800;
 }
-*/
 
 /*navigation*/
 
@@ -86,7 +84,6 @@ nav li{
     padding-top: 20px;
 }
 
-nav a{
 nav a {
     font-family: benton-sans-compressed;
     font-weight: 600;
