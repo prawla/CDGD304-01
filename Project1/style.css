@@ -185,9 +185,12 @@ a.illustration:hover {
 }
 
 a.design:hover {
+    text-decoration: underline;
+/*
     color: white;
     background-color: #ffa600;
     padding: 7px
+*/
 }
 
 a.header:link, a.header:visited{
@@ -231,16 +234,9 @@ h1.illustration{
 h2{
     font-family: forma-djr-display;
     font-weight: 400;
-    font-size: 30px;
+    font-size: 45px;
 /*    text-align: right;*/
-/*
-    padding: 7px;
-    position: fixed;
-    bottom: 35px;
-    right: 0;
-    float: right;
-    clear: right;
-*/
+
     
 }
 
@@ -261,7 +257,7 @@ p.navigation{
 
 p{
     font-family: forma-djr-text;
-    font-size: 12px;
+    font-size: 20px;
 }
 
 
