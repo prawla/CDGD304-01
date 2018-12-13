@@ -134,7 +134,7 @@ nav a:hover{
 }
 
 .abouttitle_parent {
-        align-self: center ;
+    align-self: center ;
 }
 
 .bandlist{
@@ -144,8 +144,8 @@ nav a:hover{
     text-decoration: none;
 }
 
-a.bandlist:link{
-    text-decoration: none;
+a.bandlist{
+    text-decoration: none; 
 }
 
 
