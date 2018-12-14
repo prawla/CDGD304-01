@@ -112,7 +112,7 @@ nav a:hover{
 
 .bodytext{
     font-family: benton-sans;
-    font-size: 20px;
+    font-size: 19px;
     line-height: 29px;
     margin: 50px;
 }
@@ -172,12 +172,34 @@ nav a:hover{
     letter-spacing: 15px;
 }
 
+.processtitle{
+    height: 80%;
+    text-align: center;
+    transform: rotate(90deg);
+    font-family: amador, sans-serif;
+    text-transform: lowercase;
+    font-weight: 900;
+    font-size: 170px;
+    letter-spacing: 15px;
+    margin: 5px 0;
+}
 
 
+.screenprintingimg{
+    width: 100%;
+    align-self: center;
+    margin: 0 20px;
+    
+}
 
 
-
-
+.bodytext_process{
+    font-family: benton-sans;
+    font-size: 19px;
+    line-height: 29px;
+    margin: 10px 70px;
+    align-self: center;
+}
 
 
 
