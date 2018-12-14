@@ -63,10 +63,15 @@ header::after{
 }
 
 .logo{
+    font-family: amador, sans-serif;
+    font-size: 40px;
+    color: black;
     float: left;
-    padding: 10px 0;
-    margin-left: 25px;
+    padding: 9px 0;
+    margin: 0 25px ;
+    text-decoration: none;
 }
+
 
 nav{
     float: right;
@@ -84,9 +89,10 @@ nav li{
     padding-top: 20px;
 }
 
-.nav a {
+nav a {
     font-family: benton-sans-compressed;
     font-weight: 600;
+    font-size: 20px;
     color: black;
     text-decoration: none;
     text-transform: uppercase;
@@ -133,7 +139,7 @@ nav a:hover{
     letter-spacing: 15px;
 }
 
-.abouttitle_parent {
+.title_parent {
     align-self: center ;
 }
 
@@ -155,6 +161,16 @@ nav a:hover{
     color: red;
 }
 
+.requesttitle{
+    height: 80%;
+    text-align: center;
+    transform: rotate(270deg);
+    font-family: amador, sans-serif;
+    text-transform: lowercase;
+    font-weight: 900;
+    font-size: 200px;
+    letter-spacing: 15px;
+}
 
 
 
